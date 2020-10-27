@@ -27,8 +27,8 @@ background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
   margin:1%;
   color: yellow;
 
-  font-size:2 rem;
-  margin:2%;
+  font-size: 1.8rem;
+  margin:1%;
   color: #af941d;
 }
 p{
@@ -45,7 +45,7 @@ word-spacing: .5rem;
 }
 
 .btn {
-  margin: 1rem auto;
+  margin: 1.5 rem auto;
   padding: .5rem;
   height: 12.5rem;
   width: 12.5rem;
