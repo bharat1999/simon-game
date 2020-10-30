@@ -1,10 +1,6 @@
 body {
   text-align: center;
-
-  background-color: #FBAB7E;
-background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
-  background: rgb(238,174,202);
-  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(214,219,226,1) 100%);}
+  background-color: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(214,219,226,1) 100%);}
 }
 
 #level-title {
@@ -12,7 +8,6 @@ background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
   font-size: 3.7rem;
   margin:  3%;
   color: #FEF2BF;
-  background-color: #FFE53B;
   background: -webkit-linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -22,20 +17,16 @@ background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
 .score
 {
   font-family: 'Press Start 2P', cursive;
-
-  font-size: 2rem;
-  margin:1%;
-  color: yellow;
-
   font-size: 1.8rem;
   margin:1%;
   color: #af941d;
 }
-p{
+p
+{
   padding-top: 5%;
   font-size: 1.2rem;
-font-family: 'Times New Roman', Times, serif;
-word-spacing: .5rem;
+  font-family: 'Times New Roman', Times, serif;
+  word-spacing: .5rem;
 
 }
 .container 
@@ -54,9 +45,11 @@ word-spacing: .5rem;
 } 
 
 
-.game-over {
+.game-over 
+{
   background: rgb(115,43,43);
-  background: radial-gradient(circle, rgba(115,43,43,1) 0%, rgba(255,0,0,1) 34%);}
+  background: radial-gradient(circle, rgba(115,43,43,1) 0%, rgba(255,0,0,1) 34%);
+}
 
 .red {
   background-color: red;
