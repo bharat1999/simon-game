@@ -30,7 +30,9 @@ function checkAnswer(currentLevel)
     if(gamePattern[currentLevel] === userClickedPattern[currentLevel]) {
       if (userClickedPattern.length === gamePattern.length)
       {
-        score+=5;
+        new-branch
+        score+=10;
+
         $(".score").text("SCORE = "+score);  
         setTimeout(function () {
           nextSequence();
