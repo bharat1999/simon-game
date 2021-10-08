@@ -1,12 +1,19 @@
 body {
   text-align: center;
-  background-color: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(214,219,226,1) 100%);}
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(214,219,226,1) 100%);
+}
+
+.Simon {
+  font-family: 'Press Start 2P', cursive;
+  margin-bottom: 0px;
+  color: #af941d;
 }
 
 #level-title {
   font-family: 'Press Start 2P', cursive;
-  font-size: 3.7rem;
-  margin:  3%;
+  font-size: 40px;
+  padding: 20px;
+  margin-bottom: 0px;
   color: #FEF2BF;
   background: -webkit-linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
   -webkit-background-clip: text;
@@ -18,28 +25,33 @@ body {
 {
   font-family: 'Press Start 2P', cursive;
   font-size: 1.5rem;
-  margin:1%;
+  padding-top: 20px;
+  padding-bottom: 20px;
   color: #af941d;
+  margin-bottom: 0px;
 }
 p
 {
-  padding-top: 5%;
+  padding-top: 30px;
   font-size: 1.2rem;
   font-family: 'Times New Roman', Times, serif;
   word-spacing: .5rem;
+  font-weight: 800;
 
 }
 .container 
 {
-  display: block;
-  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  max-width: 550px;
 }
 
 .btn {
   margin: 1.5 rem auto;
   padding: .5rem;
-  height: 12.5rem;
-  width: 12.5rem;
+  height: 200px;
+  width: 200px;
   border: .325rem solid black;
   border-radius: 30%;
 } 
