@@ -64,7 +64,7 @@ p
 }
 
 .red {
-  background-color: red;
+  background-color: rgb(136, 255, 0);
 }
 
 .green {
@@ -72,16 +72,16 @@ p
 }
 
 .blue {
-  background-color: blue;
+  background-color: rgb(229, 255, 0);
 }
 
 .yellow 
 {
-  background-color: yellow;
+  background-color: rgb(247, 0, 255);
 }
 
 .pressed 
 {
-  box-shadow: 0 0 1.25rem white;
+  box-shadow: 0 0 1.25rem rgb(7, 7, 7);
   background-color: white;
 }
