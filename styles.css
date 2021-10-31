@@ -1,46 +1,46 @@
 body {
   text-align: center;
-  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(214,219,226,1) 100%);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(214, 219, 226, 1) 100%
+  );
 }
 
 .Simon {
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   margin-bottom: 0px;
   color: #af941d;
 }
 
 #level-title {
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   font-size: 40px;
   padding: 20px;
   margin-bottom: 0px;
-  color: #FEF2BF;
-  background: -webkit-linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+  color: #fef2bf;
+  background: -webkit-linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: crimson;
 }
 
-.score
-{
-  font-family: 'Press Start 2P', cursive;
+.score {
+  font-family: "Press Start 2P", cursive;
   font-size: 1.5rem;
   padding-top: 20px;
   padding-bottom: 20px;
   color: #af941d;
   margin-bottom: 0px;
 }
-p
-{
+p {
   padding-top: 30px;
   font-size: 1.2rem;
-  font-family: 'Times New Roman', Times, serif;
-  word-spacing: .5rem;
+  font-family: "Times New Roman", Times, serif;
+  word-spacing: 0.5rem;
   font-weight: 800;
-
 }
-.container 
-{
+.container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 15px;
@@ -49,22 +49,24 @@ p
 
 .btn {
   margin: 1.5 rem auto;
-  padding: .5rem;
+  padding: 0.5rem;
   height: 200px;
   width: 200px;
-  border: .325rem solid black;
+  border: 0.325rem solid black;
   border-radius: 30%;
-} 
+}
 
-
-.game-over 
-{
-  background: rgb(115,43,43);
-  background: radial-gradient(circle, rgba(115,43,43,1) 0%, rgba(255,0,0,1) 34%);
+.game-over {
+  background: rgb(115, 43, 43);
+  background: radial-gradient(
+    circle,
+    rgba(115, 43, 43, 1) 0%,
+    rgba(255, 0, 0, 1) 34%
+  );
 }
 
 .red {
-  background-color: rgb(136, 255, 0);
+  background-color: #f2f2f2;
 }
 
 .green {
@@ -75,13 +77,11 @@ p
   background-color: rgb(229, 255, 0);
 }
 
-.yellow 
-{
+.yellow {
   background-color: rgb(247, 0, 255);
 }
 
-.pressed 
-{
+.pressed {
   box-shadow: 0 0 1.25rem rgb(7, 7, 7);
   background-color: white;
 }
