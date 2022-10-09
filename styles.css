@@ -69,16 +69,16 @@ p {
   background-color: #f2f2f2;
 }
 
-.aqua {
+.yellow {
   background-color:darkcyan;
 }
 
 .blue {
-  background-color: rgb(229, 255, 0);
+  background-color: rgb(229, 255, 1);
 }
 
 .green {
-  background-color:green;
+  background-color :crimson;
 }
 
 .pressed {
