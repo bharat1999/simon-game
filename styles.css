@@ -69,17 +69,14 @@ p {
   background-color: #f2f2f2;
 }
 
-.green {
-  background-color: rgb(70, 8, 129);
+
 }
 
 .blue {
   background-color: rgb(11, 228, 94);
 }
 
-.yellow {
-  background-color: rgb(11, 1, 157);
-}
+
 
 .pressed {
   box-shadow: 0 0 1.25rem rgb(9, 136, 24);
