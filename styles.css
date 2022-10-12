@@ -2,15 +2,15 @@ body {
   text-align: center;
   background: radial-gradient(
     circle,
-    rgba(238, 174, 202, 1) 0%,
-    rgba(214, 219, 226, 1) 100%
+    rgb(21, 145, 161) 0%,
+    rgb(32, 170, 67) 100%
   );
 }
 
 .Simon {
   font-family: "Press Start 2P", cursive;
   margin-bottom: 0px;
-  color: #af941d;
+  color: #790c15;
 }
 
 #level-title {
@@ -18,11 +18,11 @@ body {
   font-size: 40px;
   padding: 20px;
   margin-bottom: 0px;
-  color: #fef2bf;
+  color: #ebc20f;
   background: -webkit-linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  color: crimson;
+  color: rgb(134, 136, 48);
 }
 
 .score {
@@ -30,7 +30,7 @@ body {
   font-size: 1.5rem;
   padding-top: 20px;
   padding-bottom: 20px;
-  color: #af941d;
+  color: #a3a094;
   margin-bottom: 0px;
 }
 p {
