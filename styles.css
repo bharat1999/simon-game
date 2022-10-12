@@ -2,15 +2,15 @@ body {
   text-align: center;
   background: radial-gradient(
     circle,
-    rgba(238, 174, 202, 1) 0%,
-    rgba(214, 219, 226, 1) 100%
+    rgb(216, 77, 137) 0%,
+    rgb(93, 145, 219) 100%
   );
 }
 
 .Simon {
   font-family: "Press Start 2P", cursive;
   margin-bottom: 0px;
-  color: #af941d;
+  color: #7c734a;
 }
 
 #level-title {
@@ -19,25 +19,25 @@ body {
   padding: 20px;
   margin-bottom: 0px;
   color: #fef2bf;
-  background: -webkit-linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
-  -webkit-background-clip: text;
+  background: -webkit-linear-gradient(147deg, #d3c675 0%, #da6666 74%);
+  /* -webkit-background-clip: text; */
   -webkit-text-fill-color: transparent;
-  color: crimson;
+  color: rgb(88, 8, 24);
 }
 
 .score {
   font-family: "Press Start 2P", cursive;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   padding-top: 20px;
   padding-bottom: 20px;
-  color: #af941d;
+  color: #746213;
   margin-bottom: 0px;
 }
 p {
   padding-top: 30px;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-family: "Times New Roman", Times, serif;
-  word-spacing: 0.5rem;
+  word-spacing: 0.6rem;
   font-weight: 800;
 }
 .container {
