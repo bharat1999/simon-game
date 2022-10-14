@@ -10,35 +10,35 @@ body {
 .Simon {
   font-family: "Press Start 2P", cursive;
   margin-bottom: 0px;
-  color: #af941d;
+  color: #1d88af;
 }
 
 #level-title {
   font-family: "Press Start 2P", cursive;
-  font-size: 40px;
-  padding: 20px;
+  font-size: 60px;
+  padding: 50px;
   margin-bottom: 0px;
   color: #fef2bf;
   background: -webkit-linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
-  -webkit-background-clip : text;
+ 
   -webkit-text-fill-color: transparent;
-  color: crimson;
+  color: rgb(50, 20, 170);
 }
 
 .score {
   font-family: "Press Start 2P", cursive;
-  font-size: 1.5rem;
-  padding-top: 20px;
+  font-size: 5rem;
+  padding-top: 70px;
   padding-bottom: 20px;
-  color: #af941d;
-  margin-bottom: 0px;
+  color: #c7a305;
+  margin-bottom: 5px;
 }
 p {
   padding-top: 30px;
   font-size: 1.2rem;
   font-family: "Times New Roman", Times, serif;
-  word-spacing: 0.5rem;
-  font-weight: 800;
+  word-spacing: 2rem;
+  font-weight: 500;
 }
 .container {
   display: grid;
@@ -70,15 +70,15 @@ p {
 }
 
 
-}
+
 
 .blue {
-  background-color: rgb(11, 228, 94);
+  background-color: rgb(196, 228, 14);
 }
 
 
 
 .pressed {
   box-shadow: 0 0 1.25rem rgb(9, 136, 24);
-  background-color: white;
+  background-color: rgb(190, 1, 1);
 }
